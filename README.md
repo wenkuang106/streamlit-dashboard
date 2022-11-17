@@ -1,4 +1,4 @@
 # streamlit-dashboard
  HHA 507 Streamlit Assignment
 
-![](ezgif.com-gif-maker.gif)
+<img src="https://github.com/wenkuang106/streamlit-dashboard/blob/main/presentation.gif" width=auto />
