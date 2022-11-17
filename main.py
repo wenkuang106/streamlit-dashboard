@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+## tab title
+st.title('Chipotle Dashboard')
+
 ## creating a header for this dashboard
 st.header('Chipotle in America')
 
