@@ -17,5 +17,11 @@ df_sorted = df.sort_values(by='longitude', ascending=False)
 chipotle_east = df_sorted.head(1844)
 chipotle_west = df_sorted.tail(785)
 
+#### Toggle ####
+if st.checkbox('Show Chipotle East Dataset'):
+    st.dataframe(chipotle_east)
+if st.checkbox('Show Chipotle West Dataset'):
+    st.dataframe(chipotle_west)
+
 df = pd.DataFrame(columns=['latitude', 'longitude'])
 st.map(df)
