@@ -22,5 +22,6 @@ if st.checkbox('Show Chipotle East Dataset'):
 if st.checkbox('Show Chipotle West Dataset'):
     st.dataframe(chipotle_west)
 
-df = pd.DataFrame(columns=['latitude', 'longitude'])
-st.map(df)
+## df = pd.DataFrame(columns=['latitude', 'longitude'])
+st.map(chipotle_west)
+st.map(chipotle_east)
