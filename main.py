@@ -10,7 +10,6 @@ st.text('If you are craving Chipotle look for a location here!')
 
 ## importing the dataset used for this dashboard
 df = pd.read_csv('chipotle_stores.csv')
-df.columns
 
 ## sorting the dataset by Eastern and Western Americas at the longitude of -97.5
 df_sorted = df.sort_values(by='longitude', ascending=False)
