@@ -30,7 +30,7 @@ if st.checkbox('Chipotle in Eastern America'):
     st.map(chipotle_east)
 
 ## creating a bar and line graph of # of chipotle per state
-Chart = pd.df(columns=["state"])
+Chart = df(columns=["state"])
 if st.checkbox('Line/Bar Graph of Chipotle Dataset'):
     st.subheader('This is a Line and Bar Graph of Amount of Chipotle per State')
     st.bar_chart(Chart)
